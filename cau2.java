@@ -5,8 +5,8 @@ private Double calculate(SIGN sign, Double arg1, Double arg2) {
                 return arg1 * arg2;
             default
             break;
-            if (operator === "*") {
-                result = a * b;
+            if (operator === "MULTIPLY") {
+                result = arg1 * arg2;
             }
     }
     return 0d;
